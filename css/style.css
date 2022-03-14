@@ -1,0 +1,189 @@
+
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#202124;
+ } 
+
+ a
+ {
+     text-decoration:none;
+     cursor: pointer;
+ }
+ 
+ header
+{
+    width:100%;
+    height: 60px;    
+}
+header nav
+{
+    display:flex;
+    justify-content:flex-end;
+    
+}
+header nav .nav__right_section
+{
+    width: 250px;
+    height:auto;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+    
+}
+nav .nav__right_section a 
+{
+    margin-right: 10px;
+    color:#fff;
+} 
+nav .nav__right_section .menu-icon
+{
+    width: 25px;
+    height: 25px;
+    background: url('https://static.thenounproject.com/png/756729-200.png') center/cover no-repeat;
+    background-color:#fff;
+    border-radius: 50%;
+}
+nav .nav__right_section img
+{
+    border-radius:50%;
+    margin-left: 10px;
+}
+main
+{
+    background-color:#202124;
+    margin-top: 150px;
+    text-align: center;
+}
+main .main__logo
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom:35px;
+}
+
+.main__logo img
+{
+    width: 272px;
+    height: 92px;   
+}
+main .main__input
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main__input_container
+{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #575a5f;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+main .main__input_container input 
+{
+    width: 450px;
+    height: 40px;
+    border:none;
+    outline: none;
+    background-color:#202124;
+}
+main .main__input_container:hover
+{
+    box-shadow: 0 1px 6px 0 #f3eded21;
+    border: none;
+}
+
+main .main__input_container:hover,
+main .main__input_container input:hover
+{  
+    background:#303134;
+}
+main .main__input .search-icon
+{
+    width:20px;
+    height:20px;
+    background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png') center/cover no-repeat;
+     
+}
+main .main__input .mic-icon
+{
+    width:18px;
+    height:18px;
+    background:url('/assets/mic.png') center/contain no-repeat;
+    cursor: pointer;
+    opacity: 0.45;
+}
+main .main__boton
+{
+   width: 530px;
+   margin: 0 auto; 
+}
+main .main__boton div
+{
+    display: inline-block;
+}
+main .main__boton button
+{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+main .main__boton button:hover
+{
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+footer
+{
+    width:100%;
+    height: 50px;
+    position: absolute;
+    bottom:0;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    font-size: 13px;
+    background-color:#171717;
+}
+footer ul
+{
+    margin: 10px;
+    list-style: none;
+    display:flex;
+    padding-left: 0;
+}
+footer .footer__left
+{
+    justify-self: left;
+}
+footer .footer__right
+{
+    justify-self: right;
+}
+footer ul li a
+{
+    margin: 10px;
+    color:#999da2;
+}
